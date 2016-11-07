@@ -5,7 +5,7 @@ public class BinaryTest {
 	public static void main(String[] args) {
 		convert(0.1f);
 	}
-	private static void convert(float f){
+	private static void convert(float  f){
 		char [] nums=(f+"").toCharArray();
 		for (int i = 0; i < nums.length; i++) {
 			if(nums[i]=='.')
