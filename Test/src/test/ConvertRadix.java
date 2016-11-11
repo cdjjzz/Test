@@ -35,11 +35,5 @@ public class ConvertRadix {
 	}
 	public static void main(String[] args) {
 		printRadix();
-		try {
-			System.out.println(2/0);
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.out.println("你好!出现错误了");
-		}
 	}
 }
